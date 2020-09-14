@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.http.MediaType;
 
 @RestController
-public class FatorialController {
+public class FactorialController {
     @GetMapping(value = "/factorial", produces = MediaType.APPLICATION_JSON_VALUE)
     String compute(@RequestParam Integer number) {
         return "{\"result\": \""+ factorial(number).toString() +"\"}";
