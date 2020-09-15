@@ -24,6 +24,8 @@ Para o backend desta aplicação utilizou-se das seguintes tecnologias:
 
 - Spring
 
+Além de incluir testes.
+
 <a id="comousar"></a>
 ## :fire: Como executar?
 <p>Para executar este projeto em sua máquina local existem alguns requisitos básicos. Você deve ter o Java instalado na versão 11.</p>
